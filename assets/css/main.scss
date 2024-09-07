@@ -39,3 +39,57 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.gallery-container {
+    padding: 30px; /* Adds padding around the entire gallery */
+    max-width: 100%; /* Ensure it uses the full width available */
+    margin: 0 auto; /* Centers the gallery */
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Allows more columns if space permits */
+    gap: 20px; /* Space between grid items */
+    width: 100%; /* Ensure it spans the full width of the container */
+}
+
+.photo-item {
+    display:block !important;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    border: none; /* Removes the border */
+}
+
+.photo-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.2s; /* Adds a subtle zoom effect on hover */
+}
+
+.photo-thumbnail:hover {
+    transform: scale(1.05); /* Enlarge the image slightly on hover */
+}
+
+h3 {
+    margin: 10px 0 5px 0; /* Adds space above and below headings */
+    padding: 0; /* Removes any padding */
+    border: none; /* Removes any border */
+    font-size: 1.2rem; /* Adjusts the font size of the heading */
+    color: #333; /* Adjust the color as needed */
+}
+
+p {
+    margin: 0; /* Removes margin for a tighter layout */
+    color: #666; /* Adjust the text color if needed */
+    font-size: 0.85rem; /* Decreases the font size (adjust as needed) */
+    line-height: 1.4; /* Adjusts line height for readability */
+}
+
+/* Media Queries */
+@media (min-width: 768px) { /* Adjust breakpoint as needed */
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Allows columns to scale */
+    }
+} 
