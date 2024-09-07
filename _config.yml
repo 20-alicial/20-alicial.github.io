@@ -12,7 +12,7 @@ title                    : "Alicia Liu 刘天好"
 title_separator          : "-"
 name                     : &name "Alicia Liu"
 description              : &description "personal description"
-url                      : https://20-alicial.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://20-alicial.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "20-alicial/20-alicial.github.io/"
 
@@ -40,21 +40,10 @@ author:
   researchgate     : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
   github           : "https://github.com/20-alicial?tab=repositories"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
   linkedin         : # Username
