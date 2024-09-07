@@ -1,15 +1,15 @@
 ---
 layout: archive
 title: "Selected Essays"
-permalink: /essays/
+permalink: essays
 author_profile: true
 ---
 This site is a work in progress. I'm still collecting and compiling essays I've written over the past few years. 
 
 ### Philosophy (ethics & language)
-* *A Phenomenlogy of Love and its Neccessity*. Undergraduate Philosophy Thesis, Spring 2024. Argued that current theories of love do need sufficiently address why people feel that it is a necessary aspect of life. [PDF](files/thesis.pdf)
+* *A Phenomenlogy of Love and its Neccessity*. Undergraduate Philosophy Thesis, Spring 2024. Argued that current theories of love do need sufficiently address why people feel that it is a necessary aspect of life. [PDF](/files/thesis.pdf)
 
-* *Ethical Challenges of the Recommendation Algorithm: Should we make social media more boring?* Undergraduate coursework. Argued that social media reccommendation algorithms undermine free will (and thus personhood, as free will is necessary for personhood). [PDF](files/social_media.pdf)
+* *Ethical Challenges of the Recommendation Algorithm: Should we make social media more boring?* Undergraduate coursework. Argued that social media reccommendation algorithms undermine free will (and thus personhood, as free will is necessary for personhood). [PDF](/files/social_media.pdf)
 
 * *Should Companies be Allowed to Patent Vaccines?*. Undergraduate coursework. Argued that it is immoral for companies to patent vaccines. [PDF](files/vaccines.pdf)
 
