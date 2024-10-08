@@ -59,14 +59,14 @@ author_profile: true
   <a href="/images/photos/0seoul-2.jpg">
     <img src="/images/photos/0seoul-2.jpg" alt="Rainy day in seoul." class="photo-thumbnail">
   </a>
-  <p><i>Sometimes I Wish I Could Believe in God</i> <br> Seoul, Summer 2022</p>
+  <p><i>Belief</i> <br> Seoul, Summer 2022</p>
 </div>
 
 <div class="photo-item">
   <a href="/images/photos/van-1.jpg">
     <img src="/images/photos/van-1.jpg" alt="Oyster." class="photo-thumbnail">
   </a>
-  <p><i>Oyster</i> <br> Vancouver, Fall 2023</p>
+  <p><i>Oyster!</i> <br> Vancouver, Fall 2023</p>
 </div>
 
 <div class="photo-item">
