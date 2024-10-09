@@ -10,4 +10,4 @@ Hello! I'm Alicia, a Master's student in the [Computational Affective and Social
 
 I obtained my B.S in Computer Science (Specialization in Machine Learning) and B.A in Philosophy from the University of Chicago in 2024.
 
-Fun fact: I am number 9 in the world on an online game called Letter Speed: https://openquant.co/math-game (as of Oct 2024).
+Fun fact: I am number 9 in the world on an online game called (Letter Speed)[https://openquant.co/math-game] from OpenQuant (as of Oct 2024).
