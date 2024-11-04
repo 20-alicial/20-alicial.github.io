@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 ## Publications
-Kim, H., **Liu, A.**, & Leong, Y.C. Desirability biases perceptual decision making in aversive context. (submitted)
+Kim, H., **Liu, A.**, & Leong, Y.C. Desirability biases perceptual decision making in aversive context. (accepted, under revision)
 
 More papers to come (stay tuned)!
 
@@ -18,5 +18,5 @@ Discussed the paper by Clara Sava-Segal, Chandler Richards, Megan Leung, and Emi
 Poster talk given at Midwest Political Science Association Conference, Chicago, 2022.
 
 ## Ongoing Research
-1. How does neural event segmentation rate vary with age and clinical symptoms when viewing naturalistic stimuli?
-2. How can LLMs effectively help 'edit' negative autobiographical memories through recall & reconsolidation?
+1. How does neural event segmentation rate vary with age and clinical symptoms when viewing naturalistic stimuli, and what are the best algorithms to estimate this? (advised by YC Leong)
+2. How can we build graph-based representations of biases and stereotypes in commercial LLMs (e.g. ChatGPT) and use such representations for de-biasing? (advised by Xuechunzi Bai)
