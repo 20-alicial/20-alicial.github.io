@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 ## Publications
-Kim, H., **Liu, A.**, & Leong, Y.C. Desirability biases perceptual decision making in aversive context. (accepted, under revision)
+Kim, H., **Liu, A.**, & Leong, Y.C. Desirability biases perceptual decision making in aversive context. (under review)
 
 More papers to come (stay tuned)!
 
