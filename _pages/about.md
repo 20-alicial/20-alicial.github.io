@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I'm Alicia, a Master's student in the [Computational Affective and Social Neuroscience Laboratory](https://mcnlab.uchicago.edu/), advised by Yuan Chang Leong. I also work with Xuechunzi Bai on graph-based representations of bias in Langauges Languages Models (LLMs).
+Hello! I'm Alicia, a Master's student in the [Computational Affective and Social Neuroscience Laboratory](https://mcnlab.uchicago.edu/), advised by Yuan Chang Leong. I also work with Xuechunzi Bai on graph-based representations of bias in Large Language Models (LLMs).
 
 Broadly speaking, I'm interested in understanding memory and decision making through computational modeling, especially in areas overlapping with mental health & interactions with AI. 
 
