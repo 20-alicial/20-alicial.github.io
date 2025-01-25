@@ -7,6 +7,7 @@ author_profile: true
 ## Publications
 Haena Kim, **Alicia Liu** & Yuan Chang Leong (in press). Desirability biases perceptual decisions in the aversive domain. Emotion. [Preprint](https://osf.io/preprints/psyarxiv/8mnb7)
 
+
 More papers to come (stay tuned)!
 
 ## Talks & Presentations
