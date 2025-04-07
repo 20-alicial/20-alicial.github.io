@@ -10,7 +10,7 @@ Haena Kim, **Alicia Liu** & Yuan Chang Leong (2025). Desirability biases percept
 More papers to come (stay tuned)!
 
 ## Talks & Presentations
-* Alicia Liu, & Yuan Chang Leong (2025). Trait Anxiety is Associated With Idiosyncratic Neural Event Boundaries in During Narrative Perception. Poster talk to be delivered at Social & Affective Neuroscience Society Conference, Chicago, 2025.
+* **Alicia Liu** & Yuan Chang Leong (2025). Trait Anxiety is Associated With Idiosyncratic Neural Event Boundaries in During Narrative Perception. Poster talk to be delivered at Social & Affective Neuroscience Society Conference, Chicago, 2025.
 
 * “Individual Differences in Neural Event Segmentation of Continuous Experience”
 Presented at Institute for Mind & Biology, UChicago, 2024.
