@@ -14,7 +14,6 @@ I'm interested in how people build structured expectations and models of the soc
 ---
 
 #### News
-<div style="font-size: 0.9em;">
   
 - **July 2025** - Started as a joint lab manager for Bai Lab and Leong Lab at UChicago!
 - **July 14, 2025** - I now have a non-zero h-index 🎉 (i.e. I have 1 citation)
@@ -24,4 +23,3 @@ I'm interested in how people build structured expectations and models of the soc
 - **June 2024** – Earned a B.S. in Computer Science (Specialization in Machine Learning) and a B.A. in Philosophy from UChicago
 - **May 2023** - The start of my research career as a summer intern at the [Computational Affective and Social Neuroscience Laboratory](https://mcnlab.uchicago.edu/) (and end of my software engineering career)
 
-</div>
