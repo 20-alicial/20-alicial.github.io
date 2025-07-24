@@ -6,8 +6,18 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I'm Alicia, a Master's student in the [Computational Affective and Social Neuroscience Laboratory](https://mcnlab.uchicago.edu/), advised by Yuan Chang Leong. I also work with Xuechunzi Bai on bias in Large Language Models (LLMs) and how LLMs can reduce stereotype bias in humans.
 
-I'm interested in how people build structured expectations (mental models or priors) of the world from experience, how these models are selectively activated during naturalistic information processing, and how inaccurate models can be updated through new experience. I use brain imaging and computational modelling to study these questions. 
+Hello! I'm Alicia, a full-time research assistant and joint lab manager for Yuan Chang Leong and Xuechunzi Bai at the University of Chicago. 
 
-I obtained my B.S in Computer Science and B.A in Philosophy from the University of Chicago in 2024.
+I'm interested in how people build structured expectations and models of the social world from lived experience, how these models & memories are selectively and idiosyncratically activated when processing new information, and how inaccurate or harmful models can be updated through new experiences. I use naturalistic brain imaging, behaviorial tasks & eye-tracking, and computational modelling to study these questions.
+
+---
+
+### News
+- **July 2025** - Started as a joint lab manager for Bai Lab and Leong Lab at UChicago!
+- **July 14, 2025** - I now have a non-zero h-index 🎉 (i.e. I have 1 citation)
+- **June 2025** – Graduated with an M.A. in Psychology from the UChicago
+- **May 2025** - Submitted my M.A thesis: Anxiety is associated with idiosyncratic neural event boundaries during naturalistic perception 
+- **April 2025** – Attended my first ever academic conference with a poster presentation at Social & Affective Neuroscience Society!
+- **June 2024** – Earned a B.S. in Computer Science (Specialization in Machine Learning) and a B.A. in Philosophy from UChicago
+- **May 2023** - The start of my research career as a summer intern at the [Computational Affective and Social Neuroscience Laboratory](https://mcnlab.uchicago.edu/) (and end of my software engineering career)
