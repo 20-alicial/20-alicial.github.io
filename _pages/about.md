@@ -13,7 +13,7 @@ I'm interested in how people build structured expectations and models of the soc
 
 ---
 
-#### News
+### News
   
 - **July 2025** - Started as a joint lab manager for Bai Lab and Leong Lab at UChicago!
 - **July 14, 2025** - I now have a non-zero h-index 🎉 (i.e. I have 1 citation)
