@@ -9,7 +9,7 @@ redirect_from:
 
 Hello! I'm Alicia, a full-time research assistant and joint lab manager for Yuan Chang Leong and Xuechunzi Bai at the University of Chicago. 
 
-I'm interested in how people build structured expectations and models of the social world from lived experience, how these models & memories are selectively and idiosyncratically activated when processing new information, and how inaccurate or harmful models can be updated through new experiences. I use naturalistic brain imaging (fMRI), behaviorial tasks & eye-tracking, LLMs, and computational modelling to study these questions.
+I'm interested in how people build structured expectations and models of the world from experience, how these models & memories are selectively and idiosyncratically activated when processing new information, and how harmful models can be updated through new experiences. I use naturalistic brain imaging (fMRI), behaviorial tasks & eye-tracking, LLMs, and computational modelling to study these questions. 
 
 ---
 
