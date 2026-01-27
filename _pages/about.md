@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Alicia, a full-time RA and joint lab manager at the University of Chicago, where I also earned my BA in Philsophy, BS in Computer Science, and MA in Pschology. I'm fortunate to be advised by Yuan Chang Leong ([Computational Affective and Social Neuroscience Lab](https://mcnlab.uchicago.edu)) and Xuechunzi Bai ([Computational Social Cognition Lab](https://baixuechunzi.github.io/uchicago/)). 
+Hello! I'm Alicia, a full-time RA and joint lab manager at the University of Chicago, where I also earned my BA in Philsophy, BS in Computer Science, and MA in Pschology. I'm fortunate to be advised by [Yuan Chang Leong](https://mcnlab.uchicago.edu) and [Xuechunzi Bai](https://baixuechunzi.github.io/uchicago/). 
 
 Currently, I resesarch how people build structured expectations and models of the world from experience (e.g. event schemas), how these models & memories are selectively and idiosyncratically activated when processing new information, and how biased models can be updated through new experiences. I use multivariate neuroimaging (fMRI), behaviorial tasks & eye-tracking, LLMs, and large-scale online tasks to study these questions. 
 
