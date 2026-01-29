@@ -22,7 +22,7 @@ I believe understanding memory systems is fundamental to explaining the flexibil
 ### News
 - **Jan, 2026** - first-author project with Prof. Bai and [Prof. Lee](https://minalee-research.github.io) accepted to ACM SIGCHI 2026 (see you in Barcelona!)
 - **Jan, 2026** - (first) first-author project with Prof. Leong is available on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.01.03.697513v1)! 
-- **July 2025** - started as a joint lab manager for Prof. Leong and Prof. Leong at UChicago!
+- **July 2025** - started as a joint lab manager for Prof. Leong and Prof. Bai at UChicago!
 - **July 14, 2025** - I now have a non-zero h-index 🎉 (i.e. I have 1 citation)
 - **June 2025** - graduated with a M.A. in Psychology from UChicago
 - **May 2025** - submitted my M.A thesis: Anxiety is associated with idiosyncratic neural event boundaries during naturalistic perception [Abstract](https://knowledge.uchicago.edu/record/15260?ln=en)
