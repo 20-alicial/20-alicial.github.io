@@ -21,7 +21,7 @@ I believe understanding memory systems is fundamental to explaining the flexibil
 
 ### News
 - **March, 2026** - first-author project awarded Best Paper (top 1%) by ACM SIGCCHI 2026! Project [website](https://20-alicial.github.io/writing-with-ai-gender-bias/)
-- **Feb, 2026** - first-author project accepted as blitz talk and poster and SANS 2026!
+- **Feb, 2026** - first-author project accepted as blitz talk and poster at SANS 2026!
 - **Jan, 2026** - first-author project with Prof. Bai and [Prof. Lee](https://minalee-research.github.io) accepted to ACM SIGCHI 2026 (see you in Barcelona!)
 - **Jan, 2026** - (first) first-author project with Prof. Leong is available on [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.01.03.697513v1)! 
 - **July 2025** - started as a joint lab manager for Prof. Leong and Prof. Bai at UChicago!
