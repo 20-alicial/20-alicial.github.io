@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing with AI Can Reduce Gender Bias in Hiring</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #1a1614;
+      --paper: #ffffff;
+      --blush: #e8c4b8;
+      --rose: #c9625f;
+      --steel: #2fa4f3;
+      --dark-gray: #4a4a4a;
+      --steel-light: #d6e4f0;
+      --warm-gray: #828187;
+      --border: #dfdfdf;
+      --highlight: #f2e8c4;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    /* ─── TOP NAV ─── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(240, 240, 240, 0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+    }
+    nav .nav-title {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      color: var(--warm-gray);
+      max-width: 420px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--warm-gray);
+      text-decoration: none;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    nav ul li a:hover { color: var(--rose); }
+
+    /* ─── HERO ─── */
+    header {
+      padding: 6rem 2rem 4rem;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+    }
+
+    .venue-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.35rem 0.9rem;
+      border-radius: 2rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .badge-chi {
+      background: var(--steel);
+      color: #fff;
+    }
+    .badge-award {
+      background: linear-gradient(135deg, #b8860b, #daa520, #b8860b);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(184, 134, 11, 0.4);
+      animation: shimmer 3s ease-in-out infinite;
+    }
+    
+    .btn-disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+    @keyframes shimmer {
+      0%, 100% { box-shadow: 0 2px 10px rgba(184, 134, 11, 0.4); }
+      50% { box-shadow: 0 2px 20px rgba(218, 165, 32, 0.7); }
+    }
+
+    h1 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      line-height: 1.2;
+      color: var(--ink);
+      margin-bottom: 2rem;
+      max-width: 820px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .authors {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.5rem;
+    }
+    .author {
+      text-align: center;
+    }
+    .author a {
+      font-weight: 600;
+      color: var( );
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .author a:hover { text-decoration: underline; }
+    .author .affil {
+      font-size: 0.78rem;
+      color: var(--warm-gray);
+      margin-top: 0.15rem;
+    }
+
+    .affil-note {
+      font-size: 0.82rem;
+      color: var(--warm-gray);
+      margin: 0.6rem 0 2rem;
+    }
+
+    /* ─── LINK BUTTONS ─── */
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.55rem 1.2rem;
+      border-radius: 0.4rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+      letter-spacing: 0.02em;
+    }
+    .btn-primary {
+      background: var(--ink);
+      color: var(--paper);
+      border: 2px solid var(--ink);
+    }
+    .btn-primary:hover { background: var(--rose); border-color: var(--rose); }
+    .btn-secondary {
+      background: transparent;
+      color: var(--ink);
+      border: 2px solid var(--border);
+    }
+    .btn-secondary:hover { border-color: var(--ink); background: var(--ink); color: var(--paper); }
+
+    /* ─── TEASER FIGURE ─── */
+    .teaser {
+      max-width: 1100px;
+      margin: 2rem auto 0;
+      padding: 0 0rem;
+    }
+    .teaser img {
+      width: 100%;
+      border-radius: 0.5rem;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 30px rgba(0,0,0,0.08);
+    }
+    .teaser figcaption {
+      margin-top: 0.9rem;
+      font-size: 0.82rem;
+      color: var(--warm-gray);
+      line-height: 1.55;
+      text-align: center;
+    }
+    .teaser figcaption strong { color: var(--ink); }
+
+    /* ─── DIVIDER ─── */
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: var(--rose);
+      border-radius: 2px;
+      margin: 0 auto 1rem;
+    }
+
+    /* ─── SECTION LAYOUT ─── */
+    section {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 0;
+    }
+    section:last-of-type { padding-bottom: 6rem; }
+
+    h2 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1.9rem;
+      color: var(--ink);
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+    h3 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1.25rem;
+      color: var(--ink);
+      margin: 2rem 0 0.6rem;
+    }
+
+    p {
+      color: #2e2926;
+      margin-bottom: 1rem;
+    }
+
+    /* ─── INSIGHT CALLOUT ─── */
+    .insight {
+      background: var(--highlight);
+      border-left: 4px solid #c9a227;
+      border-radius: 0 0.4rem 0.4rem 0;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    .insight .insight-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #8a7020;
+      margin-bottom: 0.3rem;
+    }
+    .insight p { margin: 0; color: #4a3d00; font-weight: 500; }
+
+    /* ─── FIGURE ─── */
+    figure {
+      margin: 2.5rem 0;
+    }
+    figure img {
+      width: 100%;
+      border-radius: 0.4rem;
+      border: 1px solid var(--border);
+    }
+    figcaption {
+      margin-top: 0.75rem;
+      font-size: 0.81rem;
+      color: var(--warm-gray);
+      line-height: 1.55;
+    }
+    figcaption strong { color: var(--ink); }
+
+    /* ─── FINDINGS GRID ─── */
+    .findings-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+      margin: 2rem 0;
+    }
+    .finding-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 0.6rem;
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .finding-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+    }
+    .finding-card.positive::before { background: var(--steel); }
+    .finding-card.negative::before { background: var(--border); }
+    .finding-card.neutral::before { background: #8a9a6a; }
+    .finding-card .stat {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2rem;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .finding-card.positive .stat { color: var(--steel); }
+    .finding-card.negative .stat { color: var(--rose); }
+    .finding-card.neutral .stat { color: #6a7a4a; }
+    .finding-card p { font-size: 0.88rem; color: #4a3f38; margin: 0; }
+
+    /* ─── CONDITIONS TABLE ─── */
+    .conditions {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .condition-card {
+      border-radius: 0.5rem;
+      padding: 1.1rem;
+      border: 1px solid var(--border);
+    }
+    .condition-card h4 {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+    .condition-card.counter { background: var(--steel-light); border-color: var(--steel); }
+    .condition-card.counter h4 { color: var(--steel); }
+    .condition-card.stereo { background: #f7e8e8; border-color: var(--rose); }
+    .condition-card.stereo h4 { color: var(--rose); }
+    .condition-card.control { background: #f0ede8; }
+    .condition-card.control h4 { color: var(--warm-gray); }
+    .condition-card ul {
+      list-style: none;
+      font-size: 0.85rem;
+    }
+    .condition-card ul li {
+      padding: 0.25rem 0;
+      padding-left: 1rem;
+      position: relative;
+      color: #3a3330;
+    }
+    .condition-card ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      font-size: 0.75rem;
+    }
+
+    /* ─── BIBTEX ─── */
+    .bibtex-box {
+      background: #f0ede8;
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      position: relative;
+    }
+    .bibtex-box pre {
+      font-family: 'Menlo', 'Monaco', monospace;
+      font-size: 0.78rem;
+      line-height: 1.6;
+      color: #3a3330;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      background: var(--ink);
+      color: var(--paper);
+      border: none;
+      border-radius: 0.3rem;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.75rem;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .copy-btn:hover { background: var(--rose); }
+
+    /* ─── FOOTER ─── */
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      font-size: 0.8rem;
+      color: var(--warm-gray);
+    }
+    footer a { color: var(--warm-gray); }
+
+    /* ─── FADE-IN ANIMATION ─── */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    @media (max-width: 680px) {
+      .conditions { grid-template-columns: 1fr; }
+      .authors { gap: 1.5rem; }
+      nav ul { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <span class="nav-title">Writing with AI Can Reduce Gender Bias in Hiring</span>
+  <ul>
+    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#method">Method</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#discussion">Discussion</a></li>
+    <li><a href="#bibtex">BibTeX</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header>
+  <div class="venue-row fade-in">
+    <span class="badge badge-chi">ACM CHI 2026 · Barcelona</span>
+    <span class="badge badge-award">🏆 Best Paper Award</span>
+  </div>
+
+  <h1 class="fade-in" style="transition-delay:0.1s">
+    Writing with AI Can Reduce<br/>Gender Bias in Hiring Evaluations
+  </h1>
+
+  <div class="authors fade-in" style="transition-delay:0.2s">
+    <div class="author">
+      <a href="https://20-alicial.github.io" target="_blank">Alicia T.H. Liu</a>
+      <div class="affil">Department of Psychology<br/>University of Chicago</div>
+    </div>
+    <div class="author">
+      <a href="https://minalee-research.github.io" target="_blank">Mina Lee</a>
+      <div class="affil">Department of Computer Science<br/>University of Chicago</div>
+    </div>
+    <div class="author">
+      <a href="https://baixuechunzi.github.io/uchicago/index.html" target="_blank">Xuechunzi Bai</a>
+      <div class="affil">Department of Psychology<br/>University of Chicago</div>
+    </div>
+  </div>
+
+  <div class="links fade-in" style="transition-delay:0.3s">
+    <span class="btn btn-secondary btn-disabled">📚 ACM DL (coming soon)</span>
+    <span class="btn btn-secondary btn-disabled"> Code (coming soon)</span>
+    <a class="btn btn-secondary" href="/files/chi_2026.pdf" target="_blank">
+      📄 PDF
+    </a>
+    <a class="btn btn-secondary" href="#bibtex">
+      📎 BibTeX
+
+      # TO DO: add button that says PDF and link to (/files/chi_2026.pdf.pdf)
+    </a>
+  </div>
+</header>
+
+<!-- TEASER FIGURE -->
+<figure class="teaser fade-in">
+  <img src="figures/teaser_v2_fixed.png" alt="Interface of the AI writing assistant showing autocomplete suggestions in stereotypical and counter-stereotypical conditions" />
+  <figcaption>
+    <strong>Figure 1.</strong> Interface of our writing assistant providing autocomplete suggestions for evaluating job candidates' résumés.
+    <em>(Left)</em> In the stereotypical condition, suggestions emphasize female-associated warmth-oriented traits (e.g., approachable, supportive, empathetic).
+    <em>(Right)</em> In the counter-stereotypical condition, suggestions highlight male-associated competence-oriented traits (e.g., confidence, analytical, ambitious).
+    By subtly altering the descriptive language participants adopt to describe candidates, the system intervenes on stereotypes directly at the point of language production.
+  </figcaption>
+</figure>
+
+<!-- ABSTRACT -->
+<section id="abstract">
+  <div class="divider"></div>
+  <h2 class="fade-in">Overview</h2>
+  <p class="fade-in">
+    Women remain underrepresented in the workplace, partly due to stereotypes associating competence traits with men rather than women. Efforts to change such stereotypes often yield mixed results. As language models become integrated into daily life, AI writing assistants offer an opportunity to shift gender images.
+  </p>
+  <p class="fade-in">
+    In a preregistered experiment (<em>N</em> = 672), participants evaluated resumes for a female ("Jennifer") and a male ("John") candidate applying to a financial analyst role. They wrote evaluations using AI-generated suggestions in one of three conditions: suggestions for Jennifer integrated stereotypically male, female, or neutral traits. Suggestions for John remained neutral.
+  </p>
+  <p class="fade-in">
+    We found that participants exposed to stereotypically male AI suggestions evaluated Jennifer as more competent, selected her as the leade more often, and offered higher salaries. However, we also observed signs of backlash: participants were less willing to work with competent Jennifer. Our findings suggest that AI writing assistants can serve as scalable stereotype interventions by directly influencing the language people use to describe others, but also highlight the complex social dynamics of stereotype change.
+  </p>
+</section>
+
+<!-- OVERVIEW: GENDER STEREOTYPES -->
+<section id="background">
+  <div class="divider"></div>
+  <h2 class="fade-in">Background: Gender Stereotypes in the Workplace</h2>
+  <p class="fade-in">
+    Despite the increasing representation of women in political, financial, and academic sectors, women continue to face challenges at every stage of their careers. Psychologists have long argued that gender stereotypes — associating women with warmth/communality and men with competence/agency — play a key role in sustaining workplace disparities.
+  </p>
+
+  <figure class="fade-in">
+    <img src="figures/2_conceptual_fig_fixed.png" alt="Conceptual illustration of gender stereotypes across occupations and traits" />
+    <figcaption>
+      <strong>Figure 2.</strong> Conceptual illustration of gender stereotypes. <em>(A)</em> Occupations are positioned along two dimensions: competence/agency versus warmth/communality. Male-typed roles cluster toward high competence, while female-typed roles fall toward high warmth. <em>(B)</em> Trait associations follow a similar pattern. Men are linked with competence-oriented strengths; women with warmth-oriented strengths but competence-related weaknesses.
+    </figcaption>
+  </figure>
+
+  <p class="fade-in">
+    Existing interventions — such as bias training and counter-stereotypical role models — often have limited or inconsistent effects. They operate indirectly, relying on reflection or exposure to change deeply ingrained cognitive associations. AI writing assistants offer a novel, more direct alternative: intervening at the precise moment of language production.
+  </p>
+</section>
+
+<!-- METHOD -->
+<section id="method">
+  <div class="divider"></div>
+  <h2 class="fade-in">Method</h2>
+  <p class="fade-in">
+    We conducted a preregistered online experiment (<em>N</em> = 672) in which participants reviewed résumés for a male ("John") and a female ("Jennifer") candidate applying to an entry-level financial analyst role. They wrote short evaluations using an AI autocomplete tool powered by GPT-4o.
+  </p>
+
+  <h3 class="fade-in">Experimental Conditions</h3>
+  <p class="fade-in">We prompt-engineered AI auto-completion suggestions for Jennifer into three conditions:</p>
+
+  <div class="conditions fade-in">
+    <div class="condition-card control">
+      <h4>Control (Neutral)</h4>
+      <ul>
+        <li>organized and responsible</li>
+        <li>consistent in meeting expectations</li>
+        <li>a dependable member of the team</li>
+        <li>learns from feedback</li>
+      </ul>
+    </div>
+    <div class="condition-card counter">
+      <h4>Counter-stereotypical</h4>
+      <ul>
+        <li>confident in financial analysis</li>
+        <li>competitive in case competitions</li>
+        <li>decisive under pressure</li>
+        <li>analytical and detail-oriented</li>
+      </ul>
+    </div>
+    <div class="condition-card stereo">
+      <h4>Stereotypical</h4>
+      <ul>
+        <li>social, friendly, and approachable</li>
+        <li>supportive in group settings</li>
+        <li>empathetic and caring</li>
+        <li>makes others feel included</li>
+      </ul>
+    </div>
+  </div>
+
+  <figure class="fade-in">
+    <img src="figures/3_design_fig.png" alt="Experimental task flow and manipulation conditions" />
+    <figcaption>
+      <strong>Figure 3.</strong> Experimental task and manipulation. <em>(A)</em> Task flow: participants first reviewed résumés, then wrote evaluations with the AI autocomplete tool. After writing, they completed trait ratings, made hiring and salary decisions, and indicated affiliative preferences. <em>(B)</em> Example completions across conditions.
+    </figcaption>
+  </figure>
+
+  <h3 class="fade-in">Writing Assistant</h3>
+  <p class="fade-in">
+    We used <a href="https://coauthor.stanford.edu" target="_blank" style="color:var(--steel)">CoAuthor</a>, an AI writing assistant that provides autocomplete suggestions. The assistant was powered by GPT-4o (temperature = 1). Participants could press TAB to view short phrase completions and were required to view suggestions at least eight times, though they could accept, modify, or ignore any suggestion.
+  </p>
+
+  <h3 class="fade-in">Measures</h3>
+  <p class="fade-in">
+    We collected three levels of outcomes: <strong>cognitive</strong> (written evaluations, quantified via dictionary-based analysis, cosine similarity gender bias scores, and LLM-as-judge ratings), <strong>attitudinal</strong> (trait impressions, affiliative decisions), and <strong>behavioral</strong> (binary hiring choice, salary recommendation).
+  </p>
+</section>
+
+<!-- RESULTS -->
+<section id="results">
+  <div class="divider"></div>
+  <h2 class="fade-in">Results</h2>
+
+  <!-- <h3 class="fade-in">Key Findings at a Glance</h3>
+  <div class="findings-grid fade-in">
+    <div class="finding-card positive">
+      <div class="stat">✓</div>
+      <p>Counter-stereotypical suggestions <strong>eliminated the gender salary gap</strong> between Jennifer and John</p>
+    </div>
+    <div class="finding-card positive">
+      <div class="stat">56%</div>
+      <p>Participants in the counter condition <strong>selected Jennifer as a trusted leader</strong> (vs. 44% in stereotypical)</p>
+    </div>
+    <div class="finding-card negative">
+      <div class="stat">↓</div>
+      <p>Counter-stereotypical suggestions <strong>reduced Jennifer's likability as a colleague</strong> — signs of gender backlash</p>
+    </div>
+    <div class="finding-card neutral">
+      <div class="stat">~44%</div>
+      <p>Hiring decisions showed <strong>directional but non-significant</strong> improvement for Jennifer across conditions</p>
+    </div>
+  </div> -->
+
+  <h3 class="fade-in">Result 1: Intervention Effect on Participants' Written Evaluations</h3>
+  <p class="fade-in">
+    Three complementary measures — dictionary-based unigram analysis, cosine similarity gender bias scores, and LLM-as-judge ratings — all confirmed that the writing assistant successfully shifted participants' use of gendered language in line with the intended manipulation.
+  </p>
+
+  <figure class="fade-in">
+    <img src="figures/4_1_text_gender_fixed.png" alt="Quantifying gender bias in evaluation text across conditions" />
+    <figcaption>
+      <strong>Figure 4.</strong> Quantifying gender bias in evaluation text across conditions. <em>(A)</em> Dictionary-based unigram analysis showing relative frequency difference in gendered descriptors. <em>(B)</em> Cosine similarity-based net gender bias score. <em>(C)</em> 2D scatter plot of femininity vs. masculinity cosine similarity for individual text samples, colored by condition.
+    </figcaption>
+  </figure>
+
+  <div class="insight fade-in">
+    <div class="insight-label">💡 Key Point</div>
+    <p>When the AI writing assistant suggested masculine traits, participants were significantly more likely to write of Jennifer as competent and less warm — and vice versa for feminine suggestions. Participants were largely unaware of the manipulation, instead praising the writing assistant as "helpful and easy to use."</p>
+  </div>
+
+  <h3 class="fade-in">Result 2: Intervention Effect on Impressions & Affiliative Judgments</h3>
+  <p class="fade-in">
+    Counter-stereotypical suggestions improved Jennifer's standing as a trusted leader but simultaneously reduced affiliative judgments, making her appear personally less likeable. This divergence between competence-related and warmth-related impressions is consistent with a backlash-like pattern.
+  </p>
+
+  <figure class="fade-in">
+    <img src="figures/4_2_trait_perceptions_labelv4_fixed.png" alt="Gendered perceptions of competence and warmth traits across conditions" />
+    <figcaption>
+      <strong>Figure 5.</strong> Gendered perceptions of competence and warmth traits across conditions. <em>(Top)</em> Affiliative decision outcomes comparing preferences for "Jennifer" (pink) vs. "John" (blue). <em>(A)</em> Who is trusted as a leader. <em>(B)</em> Who is more enjoyable to work with. <em>(C)</em> Average trait ratings across leadership, technical skills, experience, assertiveness/confidence, warm, friendly, teamwork, and respect.
+    </figcaption>
+  </figure>
+
+  <h3 class="fade-in">Result 3: Intervention Effect on Hiring Decisions & Salary</h3>
+  <p class="fade-in">
+    Salary recommendations showed the clearest treatment effect. In control and stereotypical conditions, participants offered Jennifer significantly lower salaries than John. In the counter-stereotypical condition, the salary gap <strong>disappeared entirely</strong>. Hiring decisions, while showing the expected directional pattern, did not reach statistical significance.
+  </p>
+
+  <figure class="fade-in">
+    <img src="figures/4_3_hiring_salary_fixed.png" alt="Hiring and salary decisions by condition" />
+    <figcaption>
+      <strong>Figure 6.</strong>Hiring and salary decisions by condition. <em>(A)</em> Hiring decisions for Jennifer (pink) and John (blue) across conditions. <em>(B)</em> Average salary offers. The salary gap between Jennifer and John was significant in control (<em>p</em> = .002) and stereotypical (<em>p</em> = .025) conditions, but not in the counter-stereotypical condition (<em>p</em> = .278).
+    </figcaption>
+  </figure>
+
+  <div class="insight fade-in">
+    <div class="insight-label">💡 Key Point</div>
+    <p>The intervention was more effective on continuous, independent judgments of Jennifer and John (salary) compared to zero-sum binary choices (hiring). This is consistent with prior work on the attitude-behavior gap: counter-stereotypical suggestions may help people acknowledge Jennifer's competence and provide her a higher salary without necessarily breaking gender role congruity barriers in direct comparisons.</p>
+  </div>
+</section>
+
+<!-- DISCUSSION -->
+<section id="discussion">
+  <div class="divider"></div>
+  <h2 class="fade-in">Discussion</h2>
+
+  <h3 class="fade-in">AI Writing Assistants as Bias Mitigation Tools</h3>
+  <p class="fade-in">
+    Our prototype system demonstrates that AI writing assistants can serve as low-cost, scalable stereotype interventions. Unlike traditional approaches that raise awareness or expose people to role models, our intervention directly manipulates the mediator: language. By changing the words people used to evaluate Jennifer, we temporarily altered their cognitive representations — without requiring deliberate reflection or bias suppression.
+  </p>
+  <p class="fade-in">
+    This approach avoids the reactance and fatigue associated with explicit diversity training. Rather than demanding users monitor or suppress stereotypic thoughts, the system provides subtle shifts in language that operate at the same level of processing as the stereotypes themselves.
+  </p>
+
+  <h3 class="fade-in">The Backlash Problem</h3>
+  <p class="fade-in">
+    A critical finding is the evidence of gender stereotype backlash: counter-stereotypical suggestions increased perceived competence but decreased likeability. This is consistent with role congruity theory — when women violate prescriptive gender norms by displaying agentic traits, they may face social penalties. This double bind means that even successful linguistic interventions can have complex downstream effects on social evaluations.
+  </p>
+
+  <h3 class="fade-in">Ethical Considerations</h3>
+  <p class="fade-in">
+    Our intervention raises questions of transparency, user agency, and appropriate deployment. We discuss three deployment contexts: (1) <strong>training programs</strong> with full transparency, (2) <strong>organizational opt-in</strong> where users know the system may counteract stereotypes, and (3) <strong>individual use</strong> with full transparency and visualization of linguistic habit changes over time. The intervention preserves user agency — all suggestions can be accepted, modified, or ignored at any time.
+  </p>
+</section>
+
+<!-- BIBTEX -->
+<section id="bibtex">
+  <div class="divider"></div>
+  <h2 class="fade-in">BibTeX</h2>
+  <div class="bibtex-box fade-in">
+    <button class="copy-btn" onclick="copyBibtex()">Copy</button>
+    <pre id="bibtex-content">@inproceedings{liu2026writing,
+  title     = {Writing with {AI} Can Reduce Gender Bias in Hiring Evaluations},
+  author    = {Liu, Alicia T.H. and Lee, Mina and Bai, Xuechunzi},
+  booktitle = {Proceedings of the 2026 {CHI} Conference on Human Factors
+               in Computing Systems},
+  series    = {{CHI} '26},
+  year      = {2026},
+  address   = {Barcelona, Spain},
+  publisher = {ACM},
+  doi       = {10.1145/3772318.3791136},
+  url       = {https://doi.org/10.1145/3772318.3791136}
+}</pre>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Webpage template inspired by <a href="https://slhleosun.github.io/aligned_but_blind/" target="_blank">Aligned but Blind</a>.</p>
+</footer>
+
+<script>
+  // Intersection Observer for fade-in
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+
+  // Copy BibTeX
+  function copyBibtex() {
+    const text = document.getElementById('bibtex-content').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.querySelector('.copy-btn');
+      btn.textContent = 'Copied!';
+      setTimeout(() => btn.textContent = 'Copy', 2000);
+    });
+  }
+</script>
+</body>
+</html>
