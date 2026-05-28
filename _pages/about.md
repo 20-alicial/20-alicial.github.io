@@ -20,8 +20,9 @@ I believe understanding memory systems is fundamental to explaining the flexibil
 ---
 
 ### News
+- **April, 2026** - Work featured on UChicago Data Science Institute [News](https://datascience.uchicago.edu/insights/who-gets-hired-paid-and-liked-who-gets-credit-new-research-examines-ais-role-in-writing-and-the-workplace/) 
 - **April, 2026** - I will be beginning my PhD this fall in Philly, working with Professor [Tyler Bonnen](https://tzler.github.io/)! Words cannot express my gratitude for everyone who gave me their time and support this application season.
-- **April, 2026** - presented at CHI in Barcelona! Now out: [article](https://dl.acm.org/doi/full/10.1145/3772318.3791136)
+- **April, 2026** - presented at CHI in Barcelona! [Paper](https://dl.acm.org/doi/full/10.1145/3772318.3791136) now out
 - **March, 2026** - first-author project awarded Best Paper (top 1%) by ACM SIGCCHI 2026! Project [website](https://20-alicial.github.io/writing-with-ai-gender-bias/)
 - **Feb, 2026** - first-author project accepted as blitz talk and poster at SANS 2026!
 - **Jan, 2026** - first-author project with Prof. Bai and [Prof. Lee](https://minalee-research.github.io) accepted to ACM SIGCHI 2026 (see you in Barcelona!)
