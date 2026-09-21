@@ -1,0 +1,55 @@
+/*******************************************************************************
+ * Site-specific overrides.
+ *
+ * $accent      — links, the active nav item, publication venue labels, icons.
+ * $accent-dark — the same, in dark mode. It sits on a near-black background,
+ *                so a light-mode colour may need lightening here.
+ *
+ * Change these two values and rebuild. Nothing else in the theme needs editing.
+ ******************************************************************************/
+
+$accent: #284b63;
+$accent-dark: #284b63;
+
+:root {
+  --global-theme-color: #{$accent};
+  --global-hover-color: #{$accent};
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #{$accent-dark};
+  --global-hover-color: #{$accent-dark};
+}
+
+/* Profile photo on the homepage. The theme default is 30%; lower this to
+   shrink it. Below 576px it goes full width regardless, so phones are
+   unaffected. */
+@media (min-width: 576px) {
+  .profile {
+    width: 22%;
+  }
+}
+
+/* Social icons under the homepage bio. The theme default is 4rem. */
+.social .contact-icons {
+  font-size: 2.2rem;
+
+  a {
+    img {
+      width: 1.8rem;
+      height: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2.2rem;
+      margin-bottom: 0.3rem;
+
+      image {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+}

@@ -6,8 +6,7 @@ title: Alicia Liu 刘天好 # the website title (if blank, full name will be use
 first_name: Alicia
 middle_name:
 last_name: Liu
-contact_note: >
-  Email is the best way to reach me.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Alicia Liu — memory, event segmentation, and how people build models of the world.
 footer_text: >

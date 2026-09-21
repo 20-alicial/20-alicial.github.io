@@ -3,8 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: peer-reviewed papers and preprints, in reverse chronological order.
-nav: true
-nav_order: 3
+nav: false # reachable from the homepage publications heading
 ---
 
 <!-- _pages/publications.md -->

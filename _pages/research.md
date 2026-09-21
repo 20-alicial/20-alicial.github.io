@@ -3,8 +3,8 @@ layout: page
 permalink: /research/
 title: research
 description: ongoing projects, talks, and presentations.
-nav: true
-nav_order: 2
+published: false # set to true to bring this page back
+nav: false
 ---
 
 ## Ongoing research
