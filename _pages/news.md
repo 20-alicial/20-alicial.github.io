@@ -2,7 +2,7 @@
 layout: page
 title: news
 permalink: /news/
-description: a running log of what I have been up to.
+description:
 nav: true
 nav_order: 6
 ---
