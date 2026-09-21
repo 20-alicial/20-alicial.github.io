@@ -1,0 +1,10 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
+email: alicial@uchicago.edu # your email address
+scholar_userid: XmYSV8UAAAAJ # your Google Scholar ID
+orcid_id: 0009-0007-1331-6775 # your ORCID ID
+github_username: 20-alicial # your GitHub user name
+bluesky_url: https://bsky.app/profile/20alicial.bsky.social # your Bluesky profile URL
+rss_icon: false # comment this line to hide the RSS icon

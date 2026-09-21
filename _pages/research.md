@@ -1,25 +1,29 @@
 ---
-layout: archive
-title: "Research"
+layout: page
 permalink: /research/
-author_profile: true
+title: research
+description: ongoing projects, talks, and presentations.
+nav: true
+nav_order: 2
 ---
-## Publications
-Haena Kim, **Alicia Liu** & Yuan Chang Leong (2025). Desirability biases perceptual decisions in the aversive domain. Emotion. [Article](https://psycnet.apa.org/record/2025-86662-001) | [Preprint](https://osf.io/preprints/psyarxiv/8mnb7)
 
+## Ongoing research
 
-More papers to come (stay tuned)!
+1. How does neural event segmentation rate vary with age and clinical symptoms when viewing naturalistic stimuli, and what are the best algorithms to estimate this? *(advised by Y. C. Leong)*
+2. How can we build graph-based representations of biases and stereotypes in commercial LLMs (e.g. ChatGPT), and use such representations for de-biasing? *(advised by X. Bai)*
 
-## Talks & Presentations
-* **Alicia Liu** & Yuan Chang Leong (2025). "Trait Anxiety is Associated With Idiosyncratic Neural Event Boundaries in During Narrative Perception". Poster talk to be delivered at Social & Affective Neuroscience Society Conference, Chicago, 2025.
+---
 
-* “Individual Differences in Neural Event Segmentation of Continuous Experience”
-Presented at Institute for Mind & Biology, UChicago, 2024.
-Discussed the paper by Clara Sava-Segal, Chandler Richards, Megan Leung, and Emily S. Finn, with my current projects related to the topic.
+## Talks & presentations
 
-* “Information Release as a Form of Control: Open Government Information Request in China”
-Poster talk given at Midwest Political Science Association Conference, Chicago, 2022.
+**Trait anxiety is associated with idiosyncratic neural event boundaries during narrative perception**
+<br>
+**Alicia Liu** & Yuan Chang Leong (2025). Poster talk, Social & Affective Neuroscience Society Conference, Chicago.
 
-## Ongoing Research
-1. How does neural event segmentation rate vary with age and clinical symptoms when viewing naturalistic stimuli, and what are the best algorithms to estimate this? (advised by YC Leong)
-2. How can we build graph-based representations of biases and stereotypes in commercial LLMs (e.g. ChatGPT) and use such representations for de-biasing? (advised by Xuechunzi Bai)
+**Individual differences in neural event segmentation of continuous experience**
+<br>
+Institute for Mind & Biology, UChicago (2024). Discussion of Sava-Segal, Richards, Leung & Finn, alongside my own related projects.
+
+**Information release as a form of control: Open government information requests in China**
+<br>
+Poster talk, Midwest Political Science Association Conference, Chicago (2022).
