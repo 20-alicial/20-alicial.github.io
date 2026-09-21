@@ -9,8 +9,8 @@ nav_order: 2
 
 ## Ongoing research
 
-1. How does neural event segmentation rate vary with age and clinical symptoms when viewing naturalistic stimuli, and what are the best algorithms to estimate this? *(advised by Y. C. Leong)*
-2. How can we build graph-based representations of biases and stereotypes in commercial LLMs (e.g. ChatGPT), and use such representations for de-biasing? *(advised by X. Bai)*
+1. How does neural event segmentation rate vary with age and clinical symptoms when viewing naturalistic stimuli, and what are the best algorithms to estimate this? _(advised by Y. C. Leong)_
+2. How can we build graph-based representations of biases and stereotypes in commercial LLMs (e.g. ChatGPT), and use such representations for de-biasing? _(advised by X. Bai)_
 
 ---
 

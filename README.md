@@ -5,16 +5,16 @@ Personal website of Alicia Liu, built with [Jekyll](https://jekyllrb.com/) and t
 
 ## Editing content
 
-| What | Where |
-| --- | --- |
-| Bio / homepage | `_pages/about.md` |
-| News items | `_news/` (one Markdown file per item) |
-| Publications | `_bibliography/papers.bib` |
-| Ongoing research & talks | `_pages/research.md` |
-| Essays | `_pages/essays.md` |
-| Photography | `_pages/photography.md` (images in `assets/img/photos/`) |
-| Site title, URL, socials | `_config.yml`, `_data/socials.yml` |
-| PDFs | `files/` (legacy links) and `assets/pdf/` |
+| What                     | Where                                                    |
+| ------------------------ | -------------------------------------------------------- |
+| Bio / homepage           | `_pages/about.md`                                        |
+| News items               | `_news/` (one Markdown file per item)                    |
+| Publications             | `_bibliography/papers.bib`                               |
+| Ongoing research & talks | `_pages/research.md`                                     |
+| Essays                   | `_pages/essays.md`                                       |
+| Photography              | `_pages/photography.md` (images in `assets/img/photos/`) |
+| Site title, URL, socials | `_config.yml`, `_data/socials.yml`                       |
+| PDFs                     | `files/` (legacy links) and `assets/pdf/`                |
 
 ## Deployment
 

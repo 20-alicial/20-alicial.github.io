@@ -31,7 +31,7 @@ Hello! I'm Alicia, a full-time RA and joint lab manager at the University of Chi
 
 Currently, I research how people build structured expectations and models of the world from experience (e.g. event schemas), how these models & memories are selectively and idiosyncratically activated when processing new information, and how biased models can be updated through new experiences. I use multivariate neuroimaging (fMRI), behavioral tasks & eye-tracking, LLMs, and large-scale online tasks to study these questions.
 
-In the future, I plan for my research to center on the interactions of episodic and semantic memory systems. *When is abstract knowledge versus episodic details retrieved? How are representations compositionally recombined in novel contexts? How are memory representations transformed or forgotten in relation to changing task demands?* I hope to develop computational instantiations of theoretical frameworks to test and explain how they support learning, reasoning, and abstraction in naturalistic contexts, with applications to both biological and artificial intelligence systems.
+In the future, I plan for my research to center on the interactions of episodic and semantic memory systems. _When is abstract knowledge versus episodic details retrieved? How are representations compositionally recombined in novel contexts? How are memory representations transformed or forgotten in relation to changing task demands?_ I hope to develop computational instantiations of theoretical frameworks to test and explain how they support learning, reasoning, and abstraction in naturalistic contexts, with applications to both biological and artificial intelligence systems.
 
 ### More about me
 

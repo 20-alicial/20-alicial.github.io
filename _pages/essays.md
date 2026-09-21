@@ -25,7 +25,7 @@ Undergraduate coursework. Argued that it is immoral for companies to patent vacc
 <br>
 Undergraduate coursework. Argued that love towards a person and an animal is not necessarily different. [[PDF]](/files/special_love.pdf)
 
-**Romantic Love and Self-Creation: Stefano and Lila in *My Brilliant Friend***
+**Romantic Love and Self-Creation: Stefano and Lila in _My Brilliant Friend_**
 <br>
 Undergraduate coursework. Argued that romantic love is one of the most damaging obstacles to self-creation. [[PDF]](/files/self_creation_lila.pdf)
 
@@ -37,9 +37,9 @@ Undergraduate coursework. Argued that there is no singular definition of happine
 <br>
 Undergraduate coursework, in-class presentation. [[Slides]](/files/happiness_superhero.pptx) [[Script PDF]](/files/happiness_superhero_script.pdf)
 
-**Becoming who you are: *Gay Science* 290 and *Portrait of the Artist as a Young Man***
+**Becoming who you are: _Gay Science_ 290 and _Portrait of the Artist as a Young Man_**
 <br>
-Undergraduate coursework. Argued that self-creation can be seen as becoming rather than creating, with reference to Nietzsche's *Gay Science*. [[PDF]](/files/self_creation_gs.pdf)
+Undergraduate coursework. Argued that self-creation can be seen as becoming rather than creating, with reference to Nietzsche's _Gay Science_. [[PDF]](/files/self_creation_gs.pdf)
 
 **Evaluating Paul Grice's Theory of Conversational Implicature**
 <br>
@@ -53,10 +53,10 @@ Undergraduate coursework. [[PDF]](/files/intentionality.pdf)
 <br>
 Undergraduate coursework. Argued that although truth is valuable in many circumstances, we should not conceptualize it as an intrinsic moral good or a goal of life. [[PDF]](/files/truth2.pdf)
 
-**Will the Truth Set You Free? Truth and Freedom in *The Matrix* and *Eternal Sunshine of the Spotless Mind***
+**Will the Truth Set You Free? Truth and Freedom in _The Matrix_ and _Eternal Sunshine of the Spotless Mind_**
 <br>
 Undergraduate coursework. Argued for the subjectivity of truth, and that it is possible to have true beliefs that are contradictory and that do not correspond to universal objective truth. [[PDF]](/files/truth.pdf)
 
-**Memory and Suffering in *Eternal Sunshine of the Spotless Mind***
+**Memory and Suffering in _Eternal Sunshine of the Spotless Mind_**
 <br>
 Undergraduate coursework. Argued that we should not take a utilitarian approach when considering the value of memory and suffering. [[PDF]](/files/memory.pdf)
