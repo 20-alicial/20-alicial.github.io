@@ -1,0 +1,8 @@
+**/*.map
+**/*.min.css
+**/*.min.js
+lighthouse_results/**
+
+# Standalone project site, kept exactly as authored
+writing-with-ai-gender-bias/**
+writing-with-ai-gender-bias-site/**
