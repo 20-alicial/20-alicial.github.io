@@ -6,7 +6,7 @@ subtitle: PhD Student @ <a href='https://cni.upenn.edu/'>Computational Neuroscie
 
 profile:
   align: right
-  image: prof_pic.png
+  image: gs.jpg
   image_circular: false # crops the image to make it circular
   #more_info:
   # <p>she/her</p>
