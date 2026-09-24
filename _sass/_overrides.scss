@@ -30,6 +30,11 @@ html[data-theme="dark"] {
   }
 }
 
+/* Name heading on the homepage. Bootstrap's h1 default is 2.5rem. */
+.post-header .post-title {
+  font-size: 2rem;
+}
+
 /* Social icons under the homepage bio. The theme default is 4rem. */
 .social .contact-icons {
   font-size: 2.2rem;
