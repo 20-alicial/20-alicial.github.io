@@ -338,7 +338,7 @@ display_categories: [] # these categories will be displayed on the front page of
 
 scholar:
   last_name: [Liu]
-  first_name: [Alicia, A.]
+  first_name: [Alicia, A., Alicia T.H.]
 
   style: apa
   locale: en
