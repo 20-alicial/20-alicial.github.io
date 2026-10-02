@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -29,7 +29,7 @@ latest_posts:
 
 Hello! I’m Alicia, a PhD student in computational cognitive neuroscience, advised by [Tyler Bonnen](https://tzler.github.io/). I research how the brain builds structured models of the world from experience, how these models are selectively and idiosyncratically activated when processing new information, and how biased models can be updated through new experiences.
 
-Previously, I was advised by [Yuan Chang Leong](https://mcnlab.uchicago.edu) and [Xuechunzi Bai](https://baixuechunzi.github.io/uchicago/) at the University of Chicago.
+Previously, I was advised by [Yuan Chang (YC) Leong](https://mcnlab.uchicago.edu) and [Xuechunzi Bai](https://baixuechunzi.github.io/uchicago/) at the University of Chicago, where I received my BA in Philosophy and BS in Computer Science.
 
 Some questions I’ve been interested in: _Along what principle axes is memory organized? When is abstract knowledge versus episodic details retrieved? How are representations transformed by retrieval? How are representations factored compositionally and then recombined in novel contexts?_
 

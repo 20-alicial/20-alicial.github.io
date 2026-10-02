@@ -58,3 +58,38 @@ html[data-theme="dark"] {
     }
   }
 }
+
+/* News box on the homepage. The theme sets an inline max-height of 60vw,
+   which is taller than the list on a wide screen, so it never scrolls.
+   Inline styles win over stylesheets, hence !important. */
+.news .table-responsive {
+  max-height: 17.5rem !important;
+  /* 'scroll' rather than 'auto' so the track is always drawn, and the
+     scrollbar-* properties keep it visible without hover on macOS. */
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-theme-color) transparent;
+
+  /* macOS uses overlay scrollbars that fade out when idle. 'appearance:
+     none' opts this element out of that, giving it a permanent gutter. */
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(128, 128, 128, 0.15);
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--global-theme-color);
+    border-radius: 4px;
+  }
+}
+
+/* Breathing room between the news box and the publications heading. */
+.news {
+  margin-bottom: 2.5rem;
+}

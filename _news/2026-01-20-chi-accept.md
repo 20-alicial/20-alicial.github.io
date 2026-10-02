@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-First-author project with Prof. Bai and [Prof. Lee](https://minalee-research.github.io) accepted to ACM SIGCHI 2026 (see you in Barcelona!).
+First-author project with Bai and [Mina](https://minalee-research.github.io) accepted to ACM SIGCHI 2026 (see you in Barcelona!).

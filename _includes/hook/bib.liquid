@@ -1,0 +1,6 @@
+{%- comment -%}
+  The theme appends `additional_info` to the journal name via `markdownify`,
+  which leaves a trailing newline — so the comma before the year renders as
+  "bioRxiv, Preprint , 2026". Strip it back off.
+{%- endcomment -%}
+{%- capture entrytype %}{{ entrytype | strip }}{% endcapture -%}

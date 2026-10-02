@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started as a joint lab manager for Prof. Leong and Prof. Bai at UChicago!
+Started as a joint lab manager for YC and Bai at UChicago!
